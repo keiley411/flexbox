@@ -1,0 +1,36 @@
+body{
+    background-color: yellow;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    flex-direction: row;
+    display: flex;
+    height: 300px;
+    justify-content: space-between;
+    gap: 1rem;
+   
+}
+.angular, .react, .svlet {
+    border: 1px solid black;
+    height: 300px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:flex-start;
+    padding: 1rem;
+    background-color: white;
+
+}
+img {
+    width: 100px;
+
+}
+p{
+    text-align: center;
+}
